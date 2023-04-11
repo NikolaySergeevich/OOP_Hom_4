@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public interface Weapon {
+/**
+ * Оружие. Имеет метод урон.
+ */
+public interface Weapon {
+    int damage();
 }
